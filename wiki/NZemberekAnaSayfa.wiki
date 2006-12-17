@@ -1,0 +1,16 @@
+#labels Featured
+#NZemberek ana sayfasi
+
+= NZemberek Nedir? =
+
+Öncelikle NZemberek, Java ile geliştirilmiş Türkçe dilleri için NLP kütüphanesi olan açık
+kaynak kodlu Zemberek projesinin (http://code.google.com/p/zemberek/) .Net portudur.
+
+
+= Details =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
+

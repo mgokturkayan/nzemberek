@@ -1,5 +1,5 @@
+#summary NZemberek Projesi ana sayfasi
 #labels Featured
-#NZemberek ana sayfasi
 
 = NZemberek Nedir? =
 
@@ -17,3 +17,7 @@ NZemberek ile:
   * Türkçe karakterlere yazılmış metni sadece Ascii karakterleriyle yazılmış metne dönüştürme
   * Heceleme 
 yaptırabilirsiniz.
+
+== Kullanım ==
+
+http://code.google.com/p/nzemberek/wiki/NZemberekKullanim

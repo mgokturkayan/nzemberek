@@ -11,7 +11,7 @@ dosyayı indirin. Rar dosyasını dilediğiniz bir klasöre açın.
 3. Proje referanslarına indirdiğiniz rar dosyasını açtığınız klasördeki NZemberek.dll
 kütüphanesini ekleyin.
 4. Konsol uygulaması projenizdeki static void Main(string[] args) imzalı metodu bulun ve
-içine aşağıdaki kodu kopyalayın. (DenemeIslemleri metodunu az sonra yaratacağız.)
+içine aşağıdaki kodu kopyalayın. (DenemeIslemleri() metodunu az sonra yaratacağız.)
 
 {{{
 Zemberek zemberek = new Zemberek(new TurkiyeTurkcesi());
@@ -27,7 +27,7 @@ using net.zemberek.yapi;
 using net.zemberek.tr.yapi;
 }}}
 
-6. Main metodundan sonra aşağıdaki kodu kopyalayın. DenemeIslemleri metodu zemberek
+6. Main metodundan sonra aşağıdaki kodu kopyalayın. DenemeIslemleri() metodu zemberek
 kütüphanesinin gerçekleştirdiği işlevlerin tümünü görebileceğiniz kodlar içeriyor.
 {{{
         public static void DenemeIslemleri(Zemberek zemberek)
@@ -104,6 +104,7 @@ olasiliklari:");
             System.Console.WriteLine("\nheceleme sonucu:" + str);
         }
 }}}
+
 7. Şu haliyle kodu build ettiğinizde hata almıyor olmanız gerekiyor. Ama henüz işimiz
 bitmedi. İndirdiğiniz rar dosyasını açtığınız klasörden  app.config dosyasını ve kaynaklar
 dizininin tümünü kopyalayıp proje dizini altındaki bin\debug (Build konfigürasyonunuza
@@ -112,6 +113,6 @@ göre bu bin\release'de olabilir) dizini altına kopyalayın.
 
 
 Takıldığınız bir nokta ya da farkettiğiniz bir hata durumunda lütfen 
-# NZemberek Gelistirici Grubu (http://groups.google.com/group/nzemberek_dev) ve
-# NZemberek Hata Bildirim Grubu (http://groups.google.com/group/nzemberek_issues) e-posta
+#NZemberek Gelistirici Grubu (http://groups.google.com/group/nzemberek_dev) ve
+#NZemberek Hata Bildirim Grubu (http://groups.google.com/group/nzemberek_issues) e-posta
 gruplarını kullanın

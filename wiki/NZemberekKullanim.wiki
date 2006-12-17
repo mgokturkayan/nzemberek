@@ -1,5 +1,5 @@
 #summary NZemberek kütüphanesinin kullanımı
-#labels Phase-Deploy
+#labels Phase-Deploy,Featured
 = NZemberek Kullanım =
 
 NZemberek Kullanımı
@@ -108,13 +108,10 @@ olasiliklari:");
 bitmedi. İndirdiğiniz rar dosyasını açtığınız klasörden  app.config dosyasını ve kaynaklar
 dizininin tümünü kopyalayıp proje dizini altındaki bin\debug (Build konfigürasyonunuza
 göre bu bin\release'de olabilir) dizini altına kopyalayın.
-
 8. Şimdi projenizi build ettiğinizde oluşan exe dosyasını çift tıklayıp çalıştırabilirsiniz.
 
 
 Takıldığınız bir nokta ya da farkettiğiniz bir hata durumunda lütfen 
-
 #NZemberek Gelistirici Grubu (http://groups.google.com/group/nzemberek_dev) ve
-
 #NZemberek Hata Bildirim Grubu (http://groups.google.com/group/nzemberek_issues) e-posta
 gruplarını kullanın

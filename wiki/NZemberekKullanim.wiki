@@ -4,10 +4,10 @@
 
 NZemberek Kullanımı
 
-1. http://code.google.com/p/nzemberek/downloads/list adresinden NZemberekV01.rar isimli
-dosyayı indirin. Rar dosyasını dilediğiniz bir klasöre açın.
+1. http://code.google.com/p/nzemberek/downloads/list adresinden NZemberek-0.1a.zip isimli
+dosyayı indirin. Arşiv dosyasını dilediğiniz bir klasöre açın.
 2. Yeni bir konsol uygulaması projesi yaratın.
-3. Proje referanslarına indirdiğiniz rar dosyasını açtığınız klasördeki NZemberek.dll
+3. Proje referanslarına indirdiğiniz arşiv dosyasını açtığınız klasördeki NZemberek.dll
 kütüphanesini ekleyin.
 4. Konsol uygulaması projenizdeki static void Main(string[] args) imzalı metodu bulun ve
 içine aşağıdaki kodu kopyalayın. (DenemeIslemleri() metodunu az sonra yaratacağız.)
@@ -105,7 +105,7 @@ olasiliklari:");
 }}}
 
 7. Şu haliyle kodu build ettiğinizde hata almıyor olmanız gerekiyor. Ama henüz işimiz
-bitmedi. İndirdiğiniz rar dosyasını açtığınız klasörden  app.config dosyasını ve kaynaklar
+bitmedi. İndirdiğiniz arşiv dosyasını açtığınız klasörden  app.config dosyasını ve kaynaklar
 dizininin tümünü kopyalayıp proje dizini altındaki bin\debug (Build konfigürasyonunuza
 göre bu bin\release'de olabilir) dizini altına kopyalayın.
 8. Şimdi projenizi build ettiğinizde oluşan exe dosyasını çift tıklayıp çalıştırabilirsiniz.
